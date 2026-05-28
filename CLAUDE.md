@@ -25,6 +25,8 @@ OPC-Agent 是 Oscar（肥彭 / 彭健禧）的 LifeOS（人生管理系統），
 
 1. 重要開發行動前先輸出簡要計劃，等 Oscar 確認後再執行
 2. 執行前先確認香港時間：`date`（時區：Asia/Hong Kong, UTC+8）
+3. 每次修改 `CLAUDE.md` 之後，必須自動幫手做 git commit 儲存變更
+4. 網路搜尋策略：如有需要應盡量使用 `WebSearch` 及 `WebFetch`。如果遇到網路限制無法使用，需自動嘗試尋找其他替代方法
 
 ## 專案結構
 
@@ -46,3 +48,4 @@ OPC-agent/
 
 - **OpenCLI** (`@jackwener/opencli` v1.7.7) — 將任何網站變成 CLI 工具，支援 500+ 網站適配器
 - **StatusLine** — 自訂 terminal 底部狀態列，腳本位於 `C:\Users\Oscar Pang\.claude\statusline.js`，使用 ANSI 色塊顯示目錄、模型名稱、Context 用量 bar
+- **擴充可用 Skills** — 系統內建及已偵測到的技能（例如 `deep-research`, `pdf-to-markdown`, `code-review`, `security-review`, `verify` 等），可視需求隨時呼叫使用
