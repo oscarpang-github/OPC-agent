@@ -36,14 +36,17 @@ OPC-Agent 是 Oscar（肥彭 / 彭健禧）的 LifeOS（人生管理系統），
 OPC-agent/
 ├── CLAUDE.md              — 專案指引（本檔案）
 ├── README.md
-├── skills/               — 各項自訂工具 (Skills) 統一存放處
-│   ├── frontend-design/  — 高質感前端設計 skill
-│   ├── find-skills/      — 搜尋並安裝更多 skills
-│   ├── pdf-to-markdown/  — 高精度 PDF 轉 Markdown skill
-│   └── skill-creator/    — 建立、修改、評測自訂 skills
-└── .claude/
-    └── settings.local.json — 專案層級 Claude Code 設定（含 StatusLine、權限）
+├── .claude/
+│   └── settings.local.json — 專案層級 Claude Code 設定（含 StatusLine、權限）
+├── skills/
+│   ├── frontend-design/     — 高質感前端設計 skill
+│   ├── find-skills/         — 搜尋並安裝更多 skills
+│   ├── skill-creator/       — 建立、修改、評測自訂 skills
+│   └── pdf-to-markdown/     — PDF 轉 Markdown skill
+│       └── output/          — 轉換完成的 .md 檔案
 ```
+
+> 所有新安裝的 skills 統一放在 `skills/` 目錄下。
 
 ## 已安裝的工具
 
