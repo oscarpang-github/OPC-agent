@@ -41,9 +41,7 @@ OPC-agent/
 ├── skills/
 │   ├── frontend-design/     — 高質感前端設計 skill
 │   ├── find-skills/         — 搜尋並安裝更多 skills
-│   ├── skill-creator/       — 建立、修改、評測自訂 skills
-│   └── pdf-to-markdown/     — PDF 轉 Markdown skill
-│       └── output/          — 轉換完成的 .md 檔案
+│   └── skill-creator/       — 建立、修改、評測自訂 skills
 ```
 
 > 所有新安裝的 skills 統一放在 `skills/` 目錄下。
@@ -52,4 +50,4 @@ OPC-agent/
 
 - **OpenCLI** (`@jackwener/opencli` v1.7.7) — 將任何網站變成 CLI 工具，支援 500+ 網站適配器
 - **StatusLine** — 自訂 terminal 底部狀態列，腳本位於 `C:\Users\Oscar Pang\.claude\statusline.js`，使用 ANSI 色塊顯示目錄、模型名稱、Context 用量 bar
-- **擴充可用 Skills** — 系統內建及已偵測到的技能（例如 `deep-research`, `pdf-to-markdown`, `code-review`, `security-review`, `verify` 等），可視需求隨時呼叫使用
+- **擴充可用 Skills** — 系統內建及已偵測到的技能（例如 `deep-research`, `code-review`, `security-review`, `verify` 等），可視需求隨時呼叫使用
